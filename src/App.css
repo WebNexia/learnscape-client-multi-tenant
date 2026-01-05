@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.rich-text-content ul,
+.rich-text-content ol {
+	padding-left: 2.5rem; /* Adjust indentation for lists */
+}
+
+.rich-text-content li {
+	margin-bottom: 0.5rem; /* Adjust spacing between list items */
+}
+
+.rich-text-content p {
+	margin: 0 0 0.5rem; /* Adjust spacing between paragraphs */
+}
+
+.rich-text-content div {
+	margin-bottom: 0.5rem; /* Adjust spacing for div elements */
+}
+
+.rich-text-content strong,
+.rich-text-content b {
+	font-weight: bold;
+}
+
+.highlighted-message {
+	background-color: lightblue; /* Highlight color */
+	transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+.highlight-community-message {
+	background-color: lightblue; /* Or any color you want for highlighting */
+	transition: background-color 0.5s ease; /* Smooth transition effect */
+}
+
+.custom-phone-input {
+	height: 2.25rem;
+	font-family: Poppins;
+	font-size: 0.9rem;
+	border-radius: 0.35rem;
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	width: 100%;
+}
+.custom-phone-container {
+	font-family: Poppins;
+}
+
+.react-tel-input .special-label {
+	display: none;
+}
+
+#zmmtg-root {
+	background: transparent !important;
+}
